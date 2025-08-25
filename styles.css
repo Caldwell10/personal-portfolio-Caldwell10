@@ -68,3 +68,11 @@ form button:hover {
   background-color: #555;
 }
 
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
