@@ -3,7 +3,7 @@ body {
   padding: 0 20px;
   max-width: 900px;
   margin: auto;
-  background: #f4f4f4;
+  background: #e98282;
 }
 
 nav ul {
@@ -20,14 +20,20 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #4a90e2;
   padding: 10px 15px;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
-nav ul li a.active,
-nav ul li a:hover {
+nav ul li a.active {
   background-color: #555;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #2c5aa0;
 }
 
 header, section {
@@ -61,3 +67,4 @@ form button {
 form button:hover {
   background-color: #555;
 }
+
